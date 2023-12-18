@@ -30,7 +30,7 @@ You specify the `dataSource.` configuration properties.
 Here is the default, set up for the default embedded H2 database:
 
 ```properties
-dataSource.url = jdbc:h2:file:/var/lib/rundeck/data/grailsdb;MVCC=true
+dataSource.url = jdbc:h2:file:/var/lib/rundeck/data/grailsdb
 ```
 
 `dataSource.dbCreate` specifies how the behavior that Hibernate should take when it
